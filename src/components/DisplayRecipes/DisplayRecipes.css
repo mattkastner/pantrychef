@@ -1,0 +1,8 @@
+.recipes-container {
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 18px;
+    margin-left: 40px;
+}

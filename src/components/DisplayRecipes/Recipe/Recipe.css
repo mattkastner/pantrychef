@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Lato&display=swap');
+
+.create-recipe-inputs {
+    margin-top: 18px;
+    margin: 0px;
+}
+
+.recipe-info > div {
+    width: 100%;
+}
+
+.recipe-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    border-radius: 10px;
+    min-height: 35vh;
+    width: 40vh;
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.32);
+}
+
+.x-icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius: 6px;
+}
+
+.image-text-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.image-text-box > div > input{
+    width:150px;
+    display: flex;
+    align-content: space-around;
+}
+
+.image-text-box > h1 {
+    font-size: 24px;
+    margin-bottom: 9px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.recipe-text{
+    width:45%;
+}
+
+.recipe-info{
+    margin-top: 18px;
+    padding: 10px;
+}
+.recipe-info > p {
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 3px;
+    margin-bottom: 6px;
+    color: rgb(104, 104, 105);
+}
+
+.recipe-text {
+    margin-left: 10px;
+}
+
+.recipe-text > .title{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+}
+
+.recipe-text > .desc{
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+#edit-text {
+    margin-left: 6px;
+    color: gray;
+}
+
+#edit-text > label:hover {
+    margin-left: 6px;
+    color: #FF5252;
+}
+
+.edit-link {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 14px;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    color: #FF5252;
+    margin-top: 5px;
+    border-color:#FF5252;
+}
+
+.edit-link:hover {
+    color: white;
+    background-color: #FF5252;
+}
+
+#submit {
+    margin-top: 45px;
+}

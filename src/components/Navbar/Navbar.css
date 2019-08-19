@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Lato&display=swap');
+
+.navbar {
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 100%;
+    background: #FF5252;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2vh;
+
+}
+
+.title-name {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.chef-logo {
+    margin-left: 10px;
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
